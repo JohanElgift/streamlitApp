@@ -10,7 +10,7 @@ if fichier:
     st.write("### Aperçu des données")
     st.dataframe(df)
 
-    colonnes = df.iloc[:, :8]  
+    colonnes = df.iloc[:, :3]  
     st.write("### Graphique à barres")
     st.bar_chart(colonnes)
 
